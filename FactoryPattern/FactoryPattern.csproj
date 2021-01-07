@@ -43,7 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="com._03Factory\Add.cs" />
+    <Compile Include="com._03Factory\CalculateFactory.cs" />
     <Compile Include="com._03Factory\Divide.cs" />
+    <Compile Include="com._03Factory\ICalculate.cs" />
+    <Compile Include="com._03Factory\Subtract.cs" />
     <Compile Include="com._03Factory\Test.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

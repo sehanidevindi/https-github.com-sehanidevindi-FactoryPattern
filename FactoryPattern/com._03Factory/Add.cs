@@ -6,13 +6,14 @@ using System.Threading.Tasks;
 
 namespace FactoryPattern.com._03Factory
 {
-    public class Divide : ICalculate
+    public class Add : ICalculate
     {
         public void Calculate(double a, double b)
         {
-            Console.WriteLine("a / b is {0}",a / b);
+            Console.WriteLine("a + b is {0}", a + b);
 
-        
+
         }
     }
+    
 }

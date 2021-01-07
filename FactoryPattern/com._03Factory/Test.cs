@@ -27,8 +27,12 @@ namespace FactoryPattern.com._03Factory
                 return;
             }
 
-            Divide obj = new Divide();
+            Console.WriteLine("Enter Add, Subtract or Divide");
+            CalculateFactory factory = new CalculateFactory();
+            ICalculate obj = factory.GetCalculation(Console.ReadLine());
+           // Divide obj = new Divide();
             obj.Calculate(num1,num2);
+            Main();
         }
     }
 }
